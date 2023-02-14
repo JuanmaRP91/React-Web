@@ -1,0 +1,40 @@
+
+@font-face {
+  font-family: "JuegoTronos";
+  src: url("./assets/Game\ of\ Thrones.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/Lato-Regular.ttf");
+}
+
+.simplebar-track.simplebar-vertical{
+  background-color: #818181;
+  border-radius: 7px;
+ }
+
+
+.simplebar-track {
+  background: rgb(107, 107, 107);
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;  
+  pointer-events: none;
+  overflow: auto;
+  border-radius: 7px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  font-family: "JuegoTronos";
+}
+
+code {
+
+  font-family: "JuegoTronos";
+}
+

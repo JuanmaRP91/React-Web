@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'JuegoTronos';
+  src: url('./assets/Game\ of\ Thrones.ttf');
+}
+
+
+.home{
+  background-image: url(./assets/BackHomeImg.png);
+  height: 100vh;
+  color: white;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.others{
+  background-color: black;
+  color: white;
+}
